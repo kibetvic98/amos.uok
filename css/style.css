@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Times New Roman'; 
+    scroll-behavior: smooth;
+ }
+ body{
+    background-image: ;
+    background-color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+    height: fit-content;
+    width: auto;
+}
+.navbar{
+    background-color: #2342df;
+    background-image: linear-gradient(to top, #080808 0%, #d707f7 100% );
+    background-size: 100%;
+    -moz-background-clip: text ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-colour: transparent;
+    display: flex;
+    /* align-items: center; */
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: 800;
+    font-style:italic;
+    font-family: 'Times New Roman';
+}
+.menu-1{
+    background-color: rgb(54, 186, 207);
+    height: 90px;
+    margin-left: 0px;
+    justify-content: center;   
+}
+h1{
+    padding-left: 0px;
+    justify-content: center;
+    color: blue;
+    height: 60px;
+    padding-top: 14px;
+}
+.menu-2{
+    background-color: rgb(113, 200, 180);
+    padding-top:10px;
+    height: 40px;
+    margin-left: 0px;
+}
+nav span a{
+    color: yellow;
+    text-decoration: none;
+    float: left;
+    margin-left: 11.5%;
+    padding-top: 5px;
+}
+nav span a:hover{
+    color: blue;
+ }
+ .title {
+    background: transparent;
+    background: linear-gradient(to bottom, #e3d1d1,  #fffc );
+}
+
+.sub-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
+.hero-heading {
+    font-size: 100px;
+    margin-bottom: 10px;
+    color: #06061b;
+}
+
+.hero-heading span {
+    color: #ff6a00;
+     background: -webkit-linear-gradient(to right, #ff6a00, #ee0979); 
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    background: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent; 
+}
+
+.sub-title p {
+    font-size: 60px;
+    color: #5ff30a;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times;
+}
+
+.hero-description {
+    padding-top: 180px;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times;
+}
+
+@media (max-width: 768px) {
+    .menu-2 {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .menu-2 span a {
+        margin: 0 12px;
+        float: left;
+        padding-top: 5px;
+        
+    }
+    .hero-heading {
+        font-size: 40px;
+    } 
+
+    .hero-description{
+        font-size:20px;
+        font-weight: 100;
+        font-family: Cambria, Cochin, Georgia, Times;
+    }
+    .sub-title p {
+        padding-top: 50%;
+    }
+
+
+} .btnn{
+    text-align: center;
+    font-size: 35px;
+    width: auto;
+    padding-top: 30px;
+    border-radius: 4px;
+    border: none;
+}
+
+.btnn button a{
+    padding: 0px 40px;
+    text-decoration: none;
+    padding-top: 52px;
+    color: #9000ff;
+}
+
+.btnn button a:hover{
+    color: #081bf3;
+}
+.content{
+    text-align: center;
+    text-shadow: #9000ff;
+    color: #fff;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.content h3{
+    font-size: 35px;
+    color: #fff;
+    font-style: initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content span{
+    font-size: 35px;
+    color: #ff7200;
+    font-style: initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.par{
+    color: #050505;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding-top: 15px;
+}
+.cn {
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.2px solid black;
+    background:  #4d50f4;
+}
+
+.cn:hover {
+    background:  #39393e;
+}
+
+.cn a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cn a:hover{
+    color:#fff;
+}
+.about-page {
+    background: linear-gradient(to bottom, #d7d5ec, #a5b0b3 );
+    padding: 30px 0;
+}
+
+.about {
+    text-align: center;
+    margin-top: 25px;
+    padding: 0px 10px;
+}
+
+.about h1 {
+    font-size: 50px;
+    color: #36455c;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 20px;
+    color: #043174;
+    margin-bottom: 50px;
+}
+
+.about-us {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.about-us img {
+    flex: 0 40%;
+    max-width: 60%;
+    height: 200px;
+}
+.cont {
+    padding: 35px;
+    max-width: 50%;
+}
+
+.cont h2 {
+    color: #36455c;
+    font-size: 24px;
+    margin: 15px 0px; 
+}
+
+.cont h4 {
+    display: inline;
+} 
+
+.cont {
+    color: rgb(8, 8, 10);
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0px;
+}
+
+.cont button{
+    padding:0 18px ;
+    width: 200px;
+    height: 30px;
+}
+
+.read-more {
+    display: inline-block;
+    color: #fff;
+    background-color: #0085ff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.read-more a {
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    background-color: #36455c;
+}
+
+
+.read-more a:hover {
+    color: #fff;
+}
+@media (max-width:768px) {
+     
+    .about-us {
+        flex-direction: column;     
+   } 
+
+    .about-us img {
+        flex: 0 100%;
+        width: 100%;
+        height: 120px;
+   }
+
+    .cont {
+        flex: 0 100%;
+        max-width: 100%;
+        padding: 15px;
+   }
+
+   .table, .table tbody, .table tr, .table tr{
+       width: 100%;
+   }
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: #5edf4b;
+}
+
+.table thead tr th {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    color: #ffff;
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid #dee2e685;
+}
+
+.table tbody tr td {
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color: #060000;
+    background-color: #dde1e8;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #0e0e0e85;
+}
+
+.footer {
+    background-color: #505257;
+    padding: 20px 0;
+    padding-bottom: 30px;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background-color: #76dcfb;
+    height: 2px;
+    box-sizing: border-box;
+    width: 70px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #dc630d;
+    padding-left: 6px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(240, 240, 240, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    } 
+    
+    .cop {
+        font-size: 12px;
+        width: 100%;
+    }
+    
+    .cop p {
+        color: #fff;
+        padding: 5px 0;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 570px) {
+    .footer-col {
+        width: 100%;
+        margin-bottom: 30px;
+    } 
+}
+

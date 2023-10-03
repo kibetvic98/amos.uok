@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="shortcut icon" href="./uok-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>uok-page</title>
+</head>
+<body>
+    <div class="menu-1">
+        <h1>University of Kabianga</h1>
+    </div>
+    <nav class="menu-2">
+        <span class="active"><a href="#">Home</a></span>
+        <span><a href="#about"> About</a></span>
+        <span><a href="#">Contact</a></span>
+        <span><a href="#Staffs">Staffs</a></span>
+        <span><a href="sign_up.html">Sign up</a></span>
+        <span><a href="login.html">Login </a></span>
+    </nav>
+    <div class="title" id="home">
+        <div class="sub-title">
+            <h1 class="hero-heading">Welcome to University of Kabianga where</h1>
+            <p class="hero-description">Knowladge is explored in depth.</p>
+        </div>
+        <div class="btnn">
+            <button><a href="video/basic.mp4">WATCH VIDEO</a></button>
+        </div>
+        <div class="content">
+            <p class="par">We offer all courses 
+                 for undergraduate students.</p>
+                <br>
+                 <button class="cn"><a href="joinus.html" class="button" id="account">Access us</a></button>
+        </div>
+        <br><br><br>
+    </div>
+    <div class="about-page" id="about">
+        <div class="about">
+            <h1>About uS</h1>
+            <p>Our University has become well known for to high quality education
+            in all the schools we offer courses. 
+            <br>Under the new system, we are ranked as the best in our region.</p>
+        </div>
+        <section class="about-us">
+            <img src="image/uok.jpg" alt="uok gate">
+            <div class="cont">
+                <p><h3>SCHOOLS</h3></p>
+                <h4>
+                    <p>School of health sciences.</p>
+                    <p>School of Education, Arts and social Science.</p>
+                    <p>School of Agricalture.</p>
+                    <p>School of Science and Technology.</p>
+                    <p>School of Business and Economics.</p>
+                </h4>
+                <button class="read-more"><a href="#">Get more concepts</a></button>
+            </div>
+        </section>
+    </div>
+    <div class="table_container" id="Staffs">
+        <h1 class="heading">Staffs</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Profesion</th>
+                    <th>Department</th>
+                </tr>
+                <tbody>
+                    </tr>
+                    <tr>
+                        <td data-label="Name">Peter Kamau</td>
+                        <td data-label="Profesion">IT consoltance</td>
+                        <td data-label="Department">Information science</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Name">Victor Kibet</td>
+                        <td data-label="Profesion">Research Manager</td>
+                        <td data-label="Department">Research Department</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Name">Joseph Matuta</td>
+                        <td data-label="Profesion">Finance</td>
+                        <td data-label="Department">Finance Department</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Name">Vincent Maru</td>
+                        <td data-label="Profesion">Accademics consoltance</td>
+                        <td data-label="Department">Accademics Department</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+    </div>
+<div>
+
+<!-- footer -->
+<footer class="footer">
+    <div class="container">
+        
+        <div class="cop">
+            <p>Product from <b>AMOS K. KIRUI.</b></p>
+            <P>REG. NUMBER: <b>COM/M/0027/2019.</b></P>
+            <P>CALL: <b>+254768441008.</b></P>
+            <p>Copyright © 2020 - 2023 TermsFeed®. All rights reserved.</p>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br>
+</footer>
+      
+    <script>
+        const menu = document.querySelector('#mobile-menu');
+        const menulinks = document.querySelector('.navbar-menu');
+        const navlogo = document.querySelector('#navbar-logo')
+
+        //display mobile menu
+        const mobileMenu = () => {
+           menu.classList.toggle('is-active');
+           menulinks.classList.toggle('active');
+        }
+
+        menu.addEventListener('click', mobileMenu);
+
+        const images = ["001.jpeg"]; // List of image URLs
+const wallpaper = document.getElementById("wallpaper");
+let currentIndex = 0; // Index of the currently displayed image
+
+// Function to change the wallpaper image
+function changeWallpaper() {
+    // wallpaper.style.opacity = 0;
+    setTimeout(() => {
+        wallpaper.src = images[currentIndex];
+        currentIndex = (currentIndex + 1) % images.length;
+        // wallpaper.style.opacity = 1;
+    }, 1000); // Change image every 1 seconds (adjust as needed)
+}
+
+// Start the wallpaper animation
+changeWallpaper();
+setInterval(changeWallpaper, 3000); // Continue changing every 6 seconds (adjust as needed)
+    </script>  
+</body>
+</html>
